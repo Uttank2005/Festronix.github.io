@@ -1,0 +1,218 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply repeating background to the entire body */
+body {
+    background-image: url('image4.jpg');
+    background-repeat: repeat;
+    background-position: center;
+}
+
+/* First Section - Full-Height Image */
+.front-section {
+    background-image: url('image2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.front-section h1 {
+    font-size: 50px;
+}
+
+/* Rest of the Website - Content Styling */
+.rest-section {
+    padding: 50px;
+}
+
+.rest-section h2, .rest-section p {
+    color: #fff;
+    text-align: center;
+}
+
+/* Event Boxes Section */
+.event-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+/* Event Box Styles */
+/* Event Box Styles */
+.event-box {
+    background-image: url(image3.jpeg);
+    padding: 40px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    max-width: 1200px;
+    height: 200px;
+    text-decoration: none;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px; /* Add this for curvy edges */
+}
+
+/* Hover Effect - Expand and change shadow */
+.event-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+
+.event-box h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.event-box p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.event-boxes1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+/* Event Box Styles */
+/* Event Box Styles */
+.event-box1 {
+    background-image: url(image3.jpeg);
+    padding: 40px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 1200px;
+    height: 200px;
+    text-decoration: none;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px; /* Add this for curvy edges */
+}
+
+/* Hover Effect - Expand and change shadow */
+.event-box1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+
+.event-box1 h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.event-box1 p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.event-boxes2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+/* Event Box Styles */
+/* Event Box Styles */
+.event-box2 {
+    background-image: url(image3.jpeg);
+    padding: 40px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 1200px;
+    height: 200px;
+    text-decoration: none;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px; /* Add this for curvy edges */
+}
+
+/* Hover Effect - Expand and change shadow */
+.event-box2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+
+.event-box2 h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.event-box2 p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.event-boxes3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+/* Event Box Styles */
+/* Event Box Styles */
+.event-box3 {
+    background-image: url(image3.jpeg);
+    padding: 40px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 1200px;
+    height: 200px;
+    text-decoration: none;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px; /* Add this for curvy edges */
+}
+
+/* Hover Effect - Expand and change shadow */
+.event-box3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+
+.event-box3 h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.event-box3 p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
