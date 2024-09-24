@@ -1,0 +1,210 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply repeating background to the entire body */
+body {
+    background-image: url('Rest.jpg');
+    background-repeat: repeat;
+    background-position: center;
+}
+
+/* First Section - Full-Height Image */
+.front-section {
+    background-image: url('Front.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.front-section h1 {
+    font-size: 50px;
+}
+
+/* Rest of the Website - Content Styling */
+.rest-section {
+    padding: 50px;
+}
+
+.rest-section h2, .rest-section p {
+    color: #fff;
+    text-align: center;
+}
+
+/* Event Boxes Section */
+.event-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+/* Event Box Styles */
+/* Event Box 1 */
+.event-box {
+    background-image: url('Kasra.jpeg'); /* Image for KASRA CLASH */
+    background-position: center; /* Center the background image */
+    background-size: cover; /* Ensure the image covers the entire box */
+    padding: 40px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    max-width: 1200px;
+    height: 200px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.event-box h2 {
+    font-size: 36px; /* Larger font size */
+    margin-bottom: 15px;
+    font-weight: bold; /* Bold event name */
+}
+
+/* Increased font size for event description */
+.event-box p {
+    font-size: 18px; /* Larger font size */
+    margin-bottom: 10px;
+    font-weight: 300; /* Lighter weight for contrast */
+}
+
+/* Hover Effect - Expand and change shadow */
+.event-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Event Box 2 */
+.event-box1 {
+    background-image: url('Liftlinks.jpg'); /* Image for LIFTLiNKS */
+    background-position: center; /* Center the background image */
+    background-size: cover; /* Ensure the image covers the entire box */
+    padding: 40px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    max-width: 1200px;
+    height: 200px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.event-box1 h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.event-box1 p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+/* Hover Effect - Expand and change shadow */
+.event-box1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Event Box 3 */
+.event-box2 {
+    background-image: url('others.jpg'); /* Image for TechnoJam */
+    background-position: center; /* Center the background image */
+    background-size: cover; /* Ensure the image covers the entire box */
+    padding: 40px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    max-width: 1200px;
+    height: 200px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.event-box2 h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.event-box2 p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+/* Hover Effect - Expand and change shadow */
+.event-box2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Event Box 4 */
+.event-box3 {
+    background-image: url('others.jpg'); /* Image for Reflection Rush */
+    background-position: center; /* Center the background image */
+    background-size: cover; /* Ensure the image covers the entire box */
+    padding: 40px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    max-width: 1200px;
+    height: 200px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.event-box3 h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.event-box3 p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+/* Hover Effect - Expand and change shadow */
+.event-box3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
